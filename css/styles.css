@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  font-family: "Work Sans", georgia, arial, sans-serif;
+  color: #303030; }
+
+.float-fix {
+  clear: both; }
+
+/*# sourceMappingURL=styles.css.map */
