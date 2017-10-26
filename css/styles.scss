@@ -11,9 +11,34 @@ html {
 body {
 	height: 100%;
 	font-family: "Work Sans", georgia, arial, sans-serif;
-	color: #303030;
 }
 
 .float-fix {
 	clear: both;
+}
+
+.home {
+	height: 100%;
+	padding: 0 5%;
+	color: #303030;
+
+}
+
+header {
+	width: 100%;
+	background-color: grey;
+	display: flex;
+	align-items: center;
+	padding: 1% 0;
+
+	.namewrap {
+		width: 20%;
+	}
+
+	.name {
+		float: left;
+		margin: 0 5% 0 0;
+
+	}
+
 }
