@@ -15,18 +15,23 @@ body {
 
 .home {
   height: 100%;
-  padding: 0 5%;
-  color: #303030; }
-
-header {
   width: 100%;
-  background-color: grey;
+  padding: 0 10%;
+  color: #303030;
+  position: fixed; }
+
+.header {
+  width: 100%;
   display: flex;
   align-items: center;
   padding: 1% 0; }
-  header .name {
-    float: left; }
-  header #lastname {
+  .header .name {
+    float: left;
+    font-size: 1.05em; }
+    .header .name span {
+      color: #FF4231;
+      font-weight: bolder; }
+  .header #lastname {
     margin: 0 0 0 12px; }
 
 nav {
@@ -36,10 +41,21 @@ nav {
   align-items: center; }
   nav a {
     text-decoration: none;
-    margin: 0 12px 0 0; }
+    margin: 0 12px 0 0;
+    color: #303030; }
   nav .contact-button {
-    background-color: red;
+    background-color: #FF4231;
     padding: 10px 13px;
-    margin: 0; }
+    margin: 0;
+    color: #fff;
+    border-radius: 5px; }
+
+/* CSS for mobile version*/
+@media screen and (max-width: 868px) {
+  .home {
+    background-color: red; } }
+@media screen and (max-width: 648px) {
+  .home {
+    background-color: blue; } }
 
 /*# sourceMappingURL=styles.css.map */
