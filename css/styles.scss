@@ -11,6 +11,9 @@ html {
 body {
 	height: 100%;
 	font-family: "Work Sans", georgia, arial, sans-serif;
+	color: #303030;
+	background: -webkit-linear-gradient( #F7F7F7, #EDEDED); /*gradient color for the all backgrounds*/
+	background-color: #EDEDED;
 }
 
 .float-fix {
@@ -21,28 +24,37 @@ body {
 	height: 100%;
 	width: 100%;
 	padding: 0 10%;
-	color: #303030;
-	position: fixed;
+	position: fixed; 
 }
 
-.header {
+header {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	padding: 1% 0;
+	font-size: .9em;
+
+	.namewrap {
+		margin-left: .5%;
+	}
 
 	.name {
 		float: left;
-		font-size: 1.05em;
 
 		span {
-			color: #FF4231;
-			font-weight: bolder;
+			font-size: 1.2em;
 		}
 	}
 
+	.logo {
+		width: 15%;
+		padding: 6%;
+		background: url("../images/test-logo.png");
+		background-position: center center;
+		background-size: cover;
+	}
+
 	#lastname {
-		margin: 0 0 0 12px;
+		margin: 0 0 0 6px;
 	}
 }
 
@@ -59,11 +71,16 @@ nav {
 	}
 
 	.contact-button {
-		background-color: #FF4231;;
-		padding: 10px 13px;
+		padding: 5px 13px;
 		margin: 0;
-		color: #fff;
-		border-radius: 5px;
+		border: 2.3px solid #303030;
+		transition: all .3s;
+
+		&:hover {
+			background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+			background-color: #D4D4D4;
+			color: #FF4231;
+		}
 	}
 
 }
@@ -72,15 +89,45 @@ nav {
 
 @media screen and (max-width: 868px) {
 	.home {
-		background-color: red;
+		padding: 0 5%;
+	}
+
+	header {
+
 	}
 
 }
 
 @media screen and (max-width: 648px) {
 	.home {
-		background-color: blue;
+		padding: 0 2%;
 	}
+
+	header {
+		font-size: .8em;
+
+		.name {
+			display: none;
+		}
+
+		.logo {
+			width: 30%;
+			height: 100px;
+		}
+
+	}
+
+	nav {
+		a {
+			margin: 0 8px 0 0;
+		}
+
+		.contact-button {
+			padding: 3px 10px;
+		}
+	}
+
+
 
 }
 
