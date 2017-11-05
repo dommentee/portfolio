@@ -35,14 +35,14 @@ header {
     header .name span {
       font-size: 1.2em; }
   header .logo {
-    width: 15%;
-    padding: 6%;
-    background: url("../images/test-logo.png");
-    background-position: center center;
+    width: 13%;
+    padding: 5.5%;
+    background: url("../images/test-logo2.png");
     background-size: cover; }
   header #lastname {
     margin: 0 0 0 6px; }
 
+/*end of header*/
 nav {
   margin-left: auto;
   order: 2;
@@ -61,6 +61,12 @@ nav {
       background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
       background-color: #D4D4D4;
       color: #FF4231; }
+
+/*end of nav*/
+.intro {
+  width: 100%;
+  height: 80%;
+  background-color: lime; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 868px) {
