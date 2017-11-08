@@ -193,21 +193,17 @@ nav {
     height: 90%; }
 
   header .logo {
-    width: 25%;
-    padding: 4.5%;
-    background-position: center center; }
+    padding: 4.5%; }
 
-  .intro {
-    background-color: purple; }
-    .intro .introduction-title {
-      margin-left: 25%; }
-      .intro .introduction-title .halfStyle {
-        font-size: 8em; }
-    .intro .end-of-spanword {
-      font-size: 1em; }
-    .intro .the-intro {
-      padding: 0 1%;
-      font-size: 1.1em; }
+  .intro .introduction-title {
+    margin-left: 27%; }
+    .intro .introduction-title .halfStyle {
+      font-size: 7em; }
+  .intro .end-of-spanword {
+    font-size: .8em; }
+  .intro .the-intro {
+    padding: 0 1.5%;
+    font-size: 1em; }
 
   .main-content {
     top: 100%;
