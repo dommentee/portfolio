@@ -190,15 +190,33 @@ nav {
 @media screen and (max-width: 748px) {
   /*mobile code for smaller devices in landscape view*/
   .home {
-    padding: 0 2%; }
+    height: 90%; }
+
+  header .logo {
+    width: 25%;
+    padding: 4.5%;
+    background-position: center center; }
 
   .intro {
-    background-color: purple; } }
+    background-color: purple; }
+    .intro .introduction-title {
+      margin-left: 25%; }
+      .intro .introduction-title .halfStyle {
+        font-size: 8em; }
+    .intro .end-of-spanword {
+      font-size: 1em; }
+    .intro .the-intro {
+      padding: 0 1%;
+      font-size: 1.1em; }
+
+  .main-content {
+    top: 100%;
+    padding: 0 5%; } }
 /*end of landscape view for smaller devices*/
 @media screen and (max-width: 548px) {
   /*mobile code for portrait view on smaller devices*/
   .home {
-    padding: 0 2%; }
+    padding: 0 1%; }
 
   nav a {
     margin: 0 8px 0 0; }
