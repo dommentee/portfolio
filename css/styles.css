@@ -126,28 +126,40 @@ nav {
   position: relative; }
 
 /* CSS for mobile version*/
-@media screen and (max-width: 1200px) {
-  .intro {
-    background-color: yellow; }
-    .intro .introduction-title {
-      margin-left: 27%; }
-      .intro .introduction-title .halfStyle {
-        font-size: 10em; }
+@media screen and (max-width: 1168px) {
+  /*mobile code for smaller latops such as surface and ipad-pro*/
+  .home {
+    height: 97%; }
+
+  .intro .introduction-title {
+    margin-left: 25.5%; }
 
   .pic-wrap {
     width: 35%; } }
-@media screen and (max-width: 968px) {
-  .intro {
-    background-color: pink; } }
-@media screen and (max-width: 748px) {
+/*end of mmobile for smaller laptops such as ipad pro*/
+@media screen and (max-width: 1068px) {
+  /*mobile code for smaller tabs X laptop in vertical view*/
   .home {
-    padding: 0 2%; }
+    height: 95%; }
 
-  .intro {
-    background-color: purple; } }
-@media screen and (max-width: 648px) {
+  .intro .introduction-title {
+    margin-left: 25.5%; }
+    .intro .introduction-title .halfStyle {
+      font-size: 14.5em; }
+  .intro .end-of-spanword {
+    font-size: 1.5em; }
+  .intro .the-intro {
+    padding: 1.5%;
+    font-size: 1.2; }
+
+  .main-content {
+    top: 85%; } }
+/*end of mobile code for for smaller tablet/laptop hybrid in vertical view*/
+@media screen and (max-width: 948px) {
+  /*mobile code for tables in ladscape view*/
   .home {
-    padding: 0 2%; }
+    height: 80%;
+    padding: 0 5%; }
 
   header {
     font-size: .8em; }
@@ -156,6 +168,34 @@ nav {
     header .logo {
       width: 30%;
       height: 100px; }
+
+  .intro {
+    background-color: pink; }
+    .intro .introduction-title {
+      margin-left: 25%; }
+      .intro .introduction-title .halfStyle {
+        font-size: 11em; }
+    .intro .end-of-spanword {
+      font-size: 1em; }
+    .intro .the-intro {
+      padding: 0 1%;
+      font-size: 1.1em; }
+
+  .pic-wrap {
+    width: 33%; }
+
+  .main-content {
+    top: 75%;
+    padding: 0 5%; } }
+@media screen and (max-width: 748px) {
+  .home {
+    padding: 0 2%; }
+
+  .intro {
+    background-color: purple; } }
+@media screen and (max-width: 548px) {
+  .home {
+    padding: 0 2%; }
 
   nav a {
     margin: 0 8px 0 0; }
