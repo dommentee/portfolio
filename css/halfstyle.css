@@ -10,9 +10,8 @@
     display:inline-block;
     font-size:80px; /* or any font size will work */
     overflow:hidden;
-    white-space: pre;/* to preserve the spaces from collapsing */
+    white-space: pre; /* to preserve the spaces from collapsing */
     color: #000; /* for demo purposes */
-    
 }
 .halfStyle.hs-base:before {
     display:block;

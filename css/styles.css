@@ -36,7 +36,7 @@ header {
       font-size: 1.2em; }
   header .logo {
     width: 13%;
-    padding: 5.5%;
+    padding: 5%;
     background: url("../images/test-logo2.png");
     background-size: cover; }
   header #lastname {
@@ -65,13 +65,86 @@ nav {
 /*end of nav*/
 .intro {
   width: 100%;
-  height: 80%;
-  background-color: lime; }
+  height: 75%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #D4D4D4; }
+  .intro .pic-wrap {
+    background: url("../images/aboutpic.jpeg");
+    background-position: center center;
+    background-size: cover; }
+  .intro .introduction-title {
+    /*holds the letter with two colors*/
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-left: 24.5%; }
+    .intro .introduction-title .halfStyle {
+      /*important for the double color letter "A"*/
+      font-size: 17em;
+      position: relative;
+      overflow: hidden;
+      white-space: pre;
+      display: inline;
+      float: left; }
+    .intro .introduction-title .hs-vertical-half:before {
+      display: block;
+      display: inline;
+      z-index: 2;
+      position: absolute;
+      overflow: hidden;
+      color: #FF3E34; }
+    .intro .introduction-title .hs-vertical-half:after {
+      color: #fff;
+      opacity: .7; }
+  .intro .end-of-spanword {
+    /*div that holds "bout" to form about*/
+    float: left;
+    font-size: 2em;
+    color: #fff;
+    opacity: .7; }
+  .intro .the-intro {
+    /*hold the paragraph introduction*/
+    padding: 0 3%;
+    font-size: 1.3em; }
+
+/*end of the style for the intro class*/
+.pic-wrap {
+  height: 100%;
+  width: 33.33%;
+  position: absolute;
+  background-color: blue; }
+
+.main-content {
+  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
+  background-color: #EDEDED;
+  width: 100%;
+  height: 100%;
+  padding: 0 10%;
+  top: 100%;
+  position: relative; }
 
 /* CSS for mobile version*/
-@media screen and (max-width: 868px) {
+@media screen and (max-width: 1200px) {
+  .intro {
+    background-color: yellow; }
+    .intro .introduction-title {
+      margin-left: 27%; }
+      .intro .introduction-title .halfStyle {
+        font-size: 10em; }
+
+  .pic-wrap {
+    width: 35%; } }
+@media screen and (max-width: 968px) {
+  .intro {
+    background-color: pink; } }
+@media screen and (max-width: 748px) {
   .home {
-    padding: 0 5%; } }
+    padding: 0 2%; }
+
+  .intro {
+    background-color: purple; } }
 @media screen and (max-width: 648px) {
   .home {
     padding: 0 2%; }
@@ -87,6 +160,9 @@ nav {
   nav a {
     margin: 0 8px 0 0; }
   nav .contact-button {
-    padding: 3px 10px; } }
+    padding: 3px 10px; }
+
+  .intro {
+    background-color: orange; } }
 
 /*# sourceMappingURL=styles.css.map */
