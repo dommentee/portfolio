@@ -212,15 +212,32 @@ nav {
 @media screen and (max-width: 548px) {
   /*mobile code for portrait view on smaller devices*/
   .home {
+    height: 55%;
     padding: 0 1%; }
+
+  header .logo {
+    width: 30%;
+    padding: 8%; }
 
   nav a {
     margin: 0 8px 0 0; }
   nav .contact-button {
     padding: 3px 10px; }
 
-  .intro {
-    background-color: orange; } }
+  .intro .introduction-title {
+    display: none; }
+  .intro .the-intro {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4em; }
+
+  .pic-wrap {
+    width: 0;
+    display: none; }
+
+  .main-content {
+    top: 55%;
+    padding: 0 1%; } }
 /*end of portrait view on smaller devices*/
 
 /*# sourceMappingURL=styles.css.map */
