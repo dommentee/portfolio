@@ -162,12 +162,13 @@ nav {
     padding: 0 5%; }
 
   header {
-    font-size: .8em; }
+    font-size: .8em;
+    background-color: red; }
     header .name {
       display: none; }
     header .logo {
-      width: 30%;
-      height: 100px; }
+      width: 25%;
+      background-position: center center; }
 
   .intro {
     background-color: pink; }

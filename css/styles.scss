@@ -226,14 +226,17 @@ nav {
 
 	header {
 		font-size: .8em;
+		background-color: red;
 
 		.name {
 			display: none;
 		}
 
 		.logo {
-			width: 30%;
-			height: 100px;
+			width: 25%;
+			background-position: center center;
+	
+
 		}
 
 	}
