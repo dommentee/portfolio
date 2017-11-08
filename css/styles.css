@@ -138,7 +138,7 @@ nav {
     width: 35%; } }
 /*end of mmobile for smaller laptops such as ipad pro*/
 @media screen and (max-width: 1068px) {
-  /*mobile code for smaller tabs X laptop in vertical view*/
+  /*mobile code for smaller tabs X laptop in portrait view*/
   .home {
     height: 95%; }
 
@@ -154,33 +154,31 @@ nav {
 
   .main-content {
     top: 85%; } }
-/*end of mobile code for for smaller tablet/laptop hybrid in vertical view*/
+/*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
 @media screen and (max-width: 948px) {
-  /*mobile code for tables in ladscape view*/
+  /*mobile code for tablets in portrait view*/
   .home {
     height: 80%;
     padding: 0 5%; }
 
   header {
-    font-size: .8em;
-    background-color: red; }
+    font-size: .8em; }
     header .name {
       display: none; }
     header .logo {
       width: 25%;
+      padding: 6%;
       background-position: center center; }
 
-  .intro {
-    background-color: pink; }
-    .intro .introduction-title {
-      margin-left: 25%; }
-      .intro .introduction-title .halfStyle {
-        font-size: 11em; }
-    .intro .end-of-spanword {
-      font-size: 1em; }
-    .intro .the-intro {
-      padding: 0 1%;
-      font-size: 1.1em; }
+  .intro .introduction-title {
+    margin-left: 25%; }
+    .intro .introduction-title .halfStyle {
+      font-size: 11em; }
+  .intro .end-of-spanword {
+    font-size: 1em; }
+  .intro .the-intro {
+    padding: 0 1%;
+    font-size: 1.1em; }
 
   .pic-wrap {
     width: 33%; }
@@ -188,13 +186,17 @@ nav {
   .main-content {
     top: 75%;
     padding: 0 5%; } }
+/*end of mobile code for tablets*/
 @media screen and (max-width: 748px) {
+  /*mobile code for smaller devices in landscape view*/
   .home {
     padding: 0 2%; }
 
   .intro {
     background-color: purple; } }
+/*end of landscape view for smaller devices*/
 @media screen and (max-width: 548px) {
+  /*mobile code for portrait view on smaller devices*/
   .home {
     padding: 0 2%; }
 
@@ -205,5 +207,6 @@ nav {
 
   .intro {
     background-color: orange; } }
+/*end of portrait view on smaller devices*/
 
 /*# sourceMappingURL=styles.css.map */

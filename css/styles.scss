@@ -185,7 +185,7 @@ nav {
 }
 /*end of mmobile for smaller laptops such as ipad pro*/
 
-@media screen and (max-width: 1068px) {/*mobile code for smaller tabs X laptop in vertical view*/
+@media screen and (max-width: 1068px) {/*mobile code for smaller tabs X laptop in portrait view*/
 	.home {
 		height: 95%;
 	}
@@ -215,9 +215,9 @@ nav {
 	}
 
 }
-/*end of mobile code for for smaller tablet/laptop hybrid in vertical view*/
+/*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
 
-@media screen and (max-width: 948px) { /*mobile code for tables in ladscape view*/
+@media screen and (max-width: 948px) { /*mobile code for tablets in portrait view*/
 
 	.home {
 		height: 80%;
@@ -226,7 +226,6 @@ nav {
 
 	header {
 		font-size: .8em;
-		background-color: red;
 
 		.name {
 			display: none;
@@ -234,15 +233,12 @@ nav {
 
 		.logo {
 			width: 25%;
+			padding: 6%;
 			background-position: center center;
-	
-
 		}
-
 	}
 
 	.intro {
-		background-color: pink;
 
 		.introduction-title {
 			margin-left: 25%;
@@ -272,9 +268,9 @@ nav {
 	}
 
 }
+/*end of mobile code for tablets*/
 
-
-@media screen and (max-width: 748px) {
+@media screen and (max-width: 748px) {/*mobile code for smaller devices in landscape view*/
 	.home {
 		padding: 0 2%;
 	}
@@ -284,8 +280,9 @@ nav {
 	}
 
 }
+/*end of landscape view for smaller devices*/
 
-@media screen and (max-width: 548px) {
+@media screen and (max-width: 548px) {/*mobile code for portrait view on smaller devices*/
 	.home {
 		padding: 0 2%;
 	}
@@ -304,6 +301,6 @@ nav {
 		background-color: orange;
 	} 
 
-
 }
+/*end of portrait view on smaller devices*/
 
