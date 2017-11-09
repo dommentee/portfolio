@@ -69,6 +69,7 @@ nav {
   position: relative;
   display: flex;
   align-items: center;
+  background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
   background-color: #D4D4D4; }
   .intro .pic-wrap {
     background: url("../images/aboutpic.jpeg");
@@ -224,12 +225,22 @@ nav {
   nav .contact-button {
     padding: 3px 10px; }
 
-  .intro .introduction-title {
-    display: none; }
-  .intro .the-intro {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1.4em; }
+  .intro {
+    display: inline; }
+    .intro .introduction-title {
+      margin-left: 0%;
+      width: 100%; }
+      .intro .introduction-title .halfStyle {
+        font-size: 4.5em; }
+      .intro .introduction-title .hs-vertical-half:after {
+        color: #303030; }
+      .intro .introduction-title .end-of-spanword {
+        color: #303030; }
+    .intro .end-of-spanword {
+      font-size: .8em; }
+    .intro .the-intro {
+      padding: 5% 2% 0 5%;
+      font-size: 1.3em; }
 
   .pic-wrap {
     width: 0;

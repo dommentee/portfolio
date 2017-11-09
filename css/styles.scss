@@ -92,7 +92,7 @@ nav {
 	position: relative;
 	display: flex;
 	align-items: center;
-	//background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
 	background-color: #D4D4D4;
 
 	.pic-wrap {
@@ -337,15 +337,34 @@ nav {
 	}
 
 	.intro {
-		
+		display: inline;
+
+
 		.introduction-title {
-			display: none;
+			margin-left: 0%;
+			width: 100%;
+
+			.halfStyle {
+				font-size: 4.5em;
+			}
+
+			.hs-vertical-half:after {
+				color: #303030;
+			}
+
+			.end-of-spanword {
+				color: #303030;
+			}
+
+		}
+
+		.end-of-spanword {
+			font-size: .8em;
 		}
 		
 		.the-intro {
-			width: 90%;
-			margin: 0 auto;
-			font-size: 1.4em;
+			padding: 5% 2% 0 5%;
+			font-size: 1.3em;
 		}
 	} 
 
