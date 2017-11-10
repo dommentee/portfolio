@@ -177,22 +177,24 @@ nav {
 }
 
 .portfolio-wrap {
-	width: 90%;
+	width: 100%;
 	height: 40%;
-	margin: 0 auto;
-	background-color: red;
 
 	.site-wrap {
-		width: 28%;
+		width: 32%;
 		height: 100%;
-		background-color: green;
+		margin-left: 2%;
 		position: relative;
 		overflow: hidden;
 		float: left;
 		transition: all .85s ease;
 		-webkit-transition-delay: .6s;
     	transition-delay: .6s;
+    	background-color: pink;
+	}
 
+	#first-site {
+		margin: 0;
 	}
 }
 
