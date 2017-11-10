@@ -65,7 +65,7 @@ nav {
 /*end of nav*/
 .intro {
   width: 100%;
-  height: 75%;
+  height: 73%;
   position: relative;
   display: flex;
   align-items: center;
@@ -114,8 +114,14 @@ nav {
 .pic-wrap {
   height: 100%;
   width: 33.33%;
-  position: absolute;
-  background-color: blue; }
+  position: absolute; }
+
+.portfoliobutton {
+  font-size: 2em;
+  text-align: center;
+  padding: 1% 0; }
+  .portfoliobutton a {
+    color: #303030; }
 
 .main-content {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
@@ -153,8 +159,11 @@ nav {
     padding: 1.5%;
     font-size: 1.2; }
 
+  .portfoliobutton {
+    margin-top: 2%; }
+
   .main-content {
-    top: 85%; } }
+    top: 90%; } }
 /*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
 @media screen and (max-width: 948px) {
   /*mobile code for tablets in portrait view*/
@@ -216,12 +225,14 @@ nav {
     height: 55%;
     padding: 0 1%; }
 
-  header .logo {
-    width: 30%;
-    padding: 8%; }
+  header {
+    padding: 3% 0; }
+    header .logo {
+      width: 30%;
+      padding: 8%; }
 
   nav a {
-    margin: 0 8px 0 0; }
+    margin: 0 9px 0 0; }
   nav .contact-button {
     padding: 3px 10px; }
 
@@ -246,8 +257,11 @@ nav {
     width: 0;
     display: none; }
 
+  .portfoliobutton {
+    display: none; }
+
   .main-content {
-    top: 65%;
+    top: 70%;
     padding: 0 1%; } }
 /*end of portrait view on smaller devices*/
 
