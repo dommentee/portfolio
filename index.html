@@ -28,10 +28,7 @@
 				<a class="contact-button" href="">Contact</a>
 			</nav>
 
-			<div class="logo">
-					
-				
-			</div>
+			<div class="logo"></div>
 
 			<div class="namewrap">
 
@@ -81,8 +78,43 @@
 	<!--end of the home class-->
 	
 	<div class="main-content">
-		<h1>hello</h1>
+
+		<h1 id="portfolio"> Web Designer & Developer <br> Portfolio.</h1>
+
+		<div class="portfolio-wrap">
+
+			<div class="site-wrap">
+
+			</div>
+
+			<div class="site-wrap">
+				
+			</div>
+
+			<div class="site-wrap">
+				
+			</div>
+			
+		</div>
+
 	</div>
+
+	<script>
+	$(document).ready(function(){
+  	 $("a").on('click', function(event) {
+      if (this.hash !== "") {
+    	event.preventDefault();
+    	var hash = this.hash;
+     	$('html, body').animate({
+        scrollTop: $(hash).offset().top
+      	}, 800, function(){
+        window.location.hash = hash;
+     	});
+      } 
+  	 });
+	});
+	</script>
+
 
 
 </body>
