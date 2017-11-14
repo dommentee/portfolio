@@ -169,6 +169,8 @@ nav {
   -webkit-transition-delay: .6s;
   transition-delay: .6s;
   background-color: red; }
+  .site .sitename {
+    display: none; }
 
 .site-link {
   overflow: hidden;
@@ -202,7 +204,10 @@ nav {
 
 #uwa {
   background: -webkit-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
-  background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9); }
+  background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
+  background-color: #55F5E9; }
+  #uwa .sitelogo {
+    background-color: red; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1068px) {
@@ -235,7 +240,10 @@ nav {
     position: absolute;
     background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
     /*gradient color for the all backgrounds*/
-    background-color: #EDEDED; } }
+    background-color: #EDEDED; }
+
+  .portfolio-wrap {
+    height: 27%; } }
 /*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
 @media screen and (max-width: 948px) {
   /*mobile code for tablets in portrait view*/
