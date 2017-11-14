@@ -147,6 +147,17 @@ nav {
   transition: all .85s ease;
   -webkit-transition-delay: .6s;
   transition-delay: .6s; }
+  .portfolio-wrap .sitename {
+    float: right;
+    padding: 5%;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: right; }
+  .portfolio-wrap .sitelogo {
+    width: 40%;
+    padding: 40%;
+    margin: 0 auto; }
 
 .site {
   width: 100%;
@@ -158,12 +169,6 @@ nav {
   -webkit-transition-delay: .6s;
   transition-delay: .6s;
   background-color: red; }
-  .site .sitelogo {
-    padding: 50%;
-    margin: 0 auto;
-    background: url("../images/comp.png");
-    background-position: center center;
-    background-size: cover; }
 
 .site-link {
   overflow: hidden;
@@ -174,14 +179,13 @@ nav {
   background-color: #303945;
   transition: all .85s ease;
   -webkit-transition-delay: .6s;
-  transition-delay: .6s;
-  background-color: black; }
+  transition-delay: .6s; }
 
 .portfolio-wrap:hover .site-link {
-  height: 35%;
-  top: -35%; }
+  height: 25%;
+  top: -25%; }
 .portfolio-wrap:hover .site {
-  top: -35%; }
+  top: -25%; }
 
 #middlewrap {
   margin-left: .5%;
@@ -191,6 +195,10 @@ nav {
   background: url("../images/home.jpeg");
   background-position: center center;
   background-size: cover; }
+  #upperechelon .sitelogo {
+    background: url("../images/comp.png");
+    background-position: center center;
+    background-size: cover; }
 
 #uwa {
   background: -webkit-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);

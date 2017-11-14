@@ -189,6 +189,21 @@ nav {
 	transition: all .85s ease;
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
+
+    .sitename {
+    	float: right;
+    	padding: 5%;
+    	color: #fff;
+    	font-size: 1.5em;
+    	font-weight: bolder;
+    	text-align: right;
+    }
+
+    .sitelogo {
+    	width: 40%;
+    	padding: 40%;
+    	margin: 0 auto;
+    }
 }
 
 .site {
@@ -201,14 +216,6 @@ nav {
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
     background-color: red;
-
-    .sitelogo {
-    	padding: 50%;
-    	margin: 0 auto;
-    	background: url("../images/comp.png");
-		background-position: center center;
-		background-size: cover;		
-    }
 }
 
 .site-link {
@@ -221,18 +228,17 @@ nav {
 	transition: all .85s ease;
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
-    background-color: black;
 }
 
 .portfolio-wrap:hover {
 
 	.site-link {
-		height: 35%;
-		top: -35%;
+		height: 25%;
+		top: -25%;
 	}
 
 	.site {
-		top: -35%;
+		top: -25%;
 	}
 }
 
@@ -245,6 +251,12 @@ nav {
 	background: url("../images/home.jpeg");
 	background-position: center center;
 	background-size: cover;
+
+	.sitelogo {
+		background: url("../images/comp.png");
+		background-position: center center;
+		background-size: cover;		
+	}
 }
 
 #uwa {
