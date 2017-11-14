@@ -206,8 +206,6 @@ nav {
   background: -webkit-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
   background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
   background-color: #55F5E9; }
-  #uwa .sitelogo {
-    background-color: red; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1068px) {
