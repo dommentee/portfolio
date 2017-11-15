@@ -138,7 +138,7 @@ nav {
 
 .portfolio-wrap {
   width: 33%;
-  height: 35%;
+  height: 295px;
   border-radius: 3px;
   float: left;
   position: relative;
@@ -149,7 +149,7 @@ nav {
   transition-delay: .6s; }
   .portfolio-wrap .sitename {
     float: right;
-    padding: 5%;
+    padding: 2.5%;
     color: #fff;
     font-size: 1.5em;
     font-weight: bolder;
@@ -167,8 +167,7 @@ nav {
   overflow: hidden;
   transition: .85s ease;
   -webkit-transition-delay: .6s;
-  transition-delay: .6s;
-  background-color: red; }
+  transition-delay: .6s; }
   .site .sitename {
     display: none; }
 
@@ -208,11 +207,11 @@ nav {
   background-color: #55F5E9; }
 
 /* CSS for mobile version*/
-@media screen and (max-width: 1068px) {
+@media screen and (max-width: 1024px) {
   /*mobile code for smaller tabs X laptop in portrait view*/
   .home {
     padding: 0 10%;
-    height: 80%;
+    height: 88%;
     position: relative; }
 
   header .logo {
@@ -234,19 +233,22 @@ nav {
 
   .main-content {
     padding: 0 10%;
-    top: 75%;
+    top: 85%;
     position: absolute;
     background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
     /*gradient color for the all backgrounds*/
     background-color: #EDEDED; }
 
   .portfolio-wrap {
-    height: 27%; } }
+    height: 280px; }
+
+  .site .sitename {
+    display: block; } }
 /*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
-@media screen and (max-width: 948px) {
+@media screen and (max-width: 848px) {
   /*mobile code for tablets in portrait view*/
   .home {
-    height: 80%;
+    height: 85%;
     padding: 0 5%; }
 
   header {
@@ -275,7 +277,11 @@ nav {
     width: 33%; }
 
   .main-content {
-    padding: 0 5%; } }
+    padding: 0 5%;
+    top: 80%; }
+
+  .portfolio-wrap {
+    height: 230px; } }
 /*end of mobile code for tablets*/
 @media screen and (max-width: 748px) {
   /*mobile code for smaller devices in landscape view*/
@@ -298,7 +304,10 @@ nav {
 
   .main-content {
     top: 90%;
-    padding: 0 5%; } }
+    padding: 0 5%; }
+
+  .portfolio-wrap {
+    height: 200px; } }
 /*end of landscape view for smaller devices*/
 @media screen and (max-width: 548px) {
   /*mobile code for portrait view on smaller devices*/
