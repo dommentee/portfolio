@@ -181,7 +181,7 @@ nav {
 .portfolio-wrap {
 	width: 33%;
 	height: 295px;
-	border-radius: 3px;
+	border-radius: 5px;
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -200,8 +200,8 @@ nav {
     }
 
     .sitelogo {
-    	width: 40%;
-    	padding: 40%;
+    	width: 35%;
+    	padding: 35%;
     	margin: 0 auto;
     }
 }
@@ -326,6 +326,7 @@ nav {
 
 		.sitename {
 
+
 		}
 
 		.sitelogo {
@@ -404,6 +405,16 @@ nav {
 	.portfolio-wrap {
 		height: 230px;
 
+		.sitename {
+    		padding: 2.5%;
+    		color: #fff;
+    		font-size: 1.2em;
+    	}
+
+    	.sitelogo {
+    		width: 35%;
+    		padding: 35%;
+    	}
 	}
 
 	#middlewrap {
@@ -453,9 +464,28 @@ nav {
 	}
 
 	.portfolio-wrap {
-		height: 200px;
+		width: 49.5%;
+		height: 220px;
+
+		.sitename {
+    		padding: 2.5%;
+    		color: #fff;
+    		font-size: 1.2em;
+    	}
+
+    	.sitelogo {
+    		width: 22.5%;
+    		padding: 22.5%;
+    	}
 
 	}
+
+	#middlewrap {
+		margin-left: 1%;
+		margin-right: 0;
+
+	}
+
 
 }
 /*end of landscape view for smaller devices*/
@@ -463,7 +493,7 @@ nav {
 @media screen and (max-width: 548px) {/*mobile code for portrait view on smaller devices*/
 	.home {
 		height: 55%;
-		padding: 0 1%;
+		padding: 0 2.5%;
 		position: fixed;
 	}
 
@@ -537,12 +567,24 @@ nav {
 	.main-content {
 		position: relative;
 		top: 75%;
-		padding: 0 1%;
+		padding: 0 2.5%;
 	}
 
 	.portfolio-wrap {
 		width: 100%;
-		height: 15%;
+		height: 175px;
+		margin-top: 1.5%;
+
+		.sitename {
+    		padding: 2%;
+    		color: #fff;
+    		font-size: 1.2em;
+    	}
+
+    	.sitelogo {
+    		width: 12%;
+    		padding: 12%;
+    	}
 
 	}
 
