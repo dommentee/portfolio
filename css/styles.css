@@ -107,7 +107,7 @@ nav {
     font-size: 1.5em;
     color: #fff;
     opacity: .7; }
-  .intro .the-intro {
+  .intro .text-statement {
     /*hold the paragraph introduction*/
     padding: 0 2%;
     font-size: 1.2em; }
@@ -167,7 +167,8 @@ nav {
   overflow: hidden;
   transition: .85s ease;
   -webkit-transition-delay: .6s;
-  transition-delay: .6s; }
+  transition-delay: .6s;
+  background-color: teal; }
   .site .sitename {
     display: none; }
 
@@ -206,6 +207,18 @@ nav {
   background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
   background-color: #55F5E9; }
 
+#approach {
+  height: 375px;
+  margin: 1% 0;
+  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
+  background-color: #EDEDED;
+  float: left; }
+  #approach .pic-wrap {
+    background: url("../images/.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-color: red; }
+
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
   /*mobile code for smaller tabs X laptop in portrait view*/
@@ -224,7 +237,7 @@ nav {
       font-size: 10em; }
   .intro .end-of-spanword {
     font-size: 1.2em; }
-  .intro .the-intro {
+  .intro .text-statement {
     padding: 1.5%;
     font-size: 1.2; }
 
@@ -281,7 +294,7 @@ nav {
       font-size: 7em; }
   .intro .end-of-spanword {
     font-size: 1em; }
-  .intro .the-intro {
+  .intro .text-statement {
     padding: 0 1.5%;
     font-size: 1em; }
 
@@ -320,7 +333,7 @@ nav {
       font-size: 6em; }
   .intro .end-of-spanword {
     font-size: .8em; }
-  .intro .the-intro {
+  .intro .text-statement {
     padding: 0 1.5%;
     font-size: 1em; }
 
@@ -330,6 +343,7 @@ nav {
 
   .portfolio-wrap {
     width: 49.5%;
+    margin-top: 1%;
     height: 220px; }
     .portfolio-wrap .sitename {
       padding: 2.5%;
@@ -374,7 +388,7 @@ nav {
         color: #303030; }
     .intro .end-of-spanword {
       font-size: .8em; }
-    .intro .the-intro {
+    .intro .text-statement {
       padding: 5% 2% 0 5%;
       font-size: 1.3em; }
 

@@ -141,12 +141,13 @@ nav {
 		opacity: .7;
 	}
 
-	.the-intro {/*hold the paragraph introduction*/
+	.text-statement {/*hold the paragraph introduction*/
 		padding: 0 2%;
 		font-size: 1.2em;
 	}
 }
 /*end of the style for the intro class*/
+
 .pic-wrap {
 	height: 100%;
 	width: 33.33%;
@@ -215,6 +216,7 @@ nav {
 	transition: .85s ease;
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
+    background-color: teal;
 
     .sitename {
     	display: none;
@@ -272,6 +274,22 @@ nav {
   	}
 }
 
+#approach {
+	height: 375px;
+	margin: 1% 0;
+	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
+	background-color: #EDEDED;
+	float: left;
+
+	.pic-wrap {
+		background: url("../images/.jpeg");
+		background-position: center center;
+		background-size: cover;
+		background-color: red;
+	}
+
+}
+
 
 /* CSS for mobile version*/
 
@@ -303,7 +321,7 @@ nav {
 			font-size: 1.2em;
 		}
 
-		.the-intro {
+		.text-statement {
 			padding: 1.5%;
 			font-size: 1.2;
 		}
@@ -406,7 +424,7 @@ nav {
 			font-size: 1em;
 		}
 
-		.the-intro {
+		.text-statement {
 			padding: 0 1.5%;
 			font-size: 1em;
 		}
@@ -474,7 +492,7 @@ nav {
 			font-size: .8em;
 		}
 
-		.the-intro {
+		.text-statement {
 			padding: 0 1.5%;
 			font-size: 1em;
 		}
@@ -488,6 +506,7 @@ nav {
 
 	.portfolio-wrap {
 		width: 49.5%;
+		margin-top: 1%;
 		height: 220px;
 
 		.sitename {
@@ -568,7 +587,7 @@ nav {
 			font-size: .8em;
 		}
 		
-		.the-intro {
+		.text-statement {
 			padding: 5% 2% 0 5%;
 			font-size: 1.3em;
 		}
