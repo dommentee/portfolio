@@ -64,7 +64,7 @@ nav {
       color: #FF4231; }
 
 /*end of nav*/
-.intro {
+.hero {
   width: 100%;
   height: 70%;
   border-radius: 3px;
@@ -73,17 +73,17 @@ nav {
   align-items: center;
   background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
   background-color: #D4D4D4; }
-  .intro .pic-wrap {
+  .hero .pic-wrap {
     background: url("../images/aboutpic.jpeg");
     background-position: center center;
     background-size: cover; }
-  .intro .introduction-title {
+  .hero .introduction-title {
     /*holds the letter with two colors*/
     font-size: 1em;
     display: flex;
     align-items: center;
     margin-left: 26.2%; }
-    .intro .introduction-title .halfStyle {
+    .hero .introduction-title .halfStyle {
       /*important for the double color letter "A"*/
       font-size: 12em;
       position: relative;
@@ -91,23 +91,23 @@ nav {
       white-space: pre;
       display: inline;
       float: left; }
-    .intro .introduction-title .hs-vertical-half:before {
+    .hero .introduction-title .hs-vertical-half:before {
       display: block;
       display: inline;
       z-index: 2;
       position: absolute;
       overflow: hidden;
       color: #FF3E34; }
-    .intro .introduction-title .hs-vertical-half:after {
+    .hero .introduction-title .hs-vertical-half:after {
       color: #fff;
       opacity: .7; }
-  .intro .end-of-spanword {
+  .hero .end-of-spanword {
     /*div that holds "bout" to form about*/
     float: left;
     font-size: 1.5em;
     color: #fff;
     opacity: .7; }
-  .intro .text-statement {
+  .hero .text-statement {
     /*hold the paragraph introduction*/
     padding: 0 2%;
     font-size: 1.2em; }
@@ -231,12 +231,17 @@ nav {
     color: #FF3E34;
     opacity: .8; }
 
+/*end of approach*/
 #toolkit {
   height: 225px;
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
   background-color: #EDEDED; }
   #toolkit .introduction-title {
     margin-left: 0; }
+    #toolkit .introduction-title .halfStyle {
+      font-size: 8em; }
+  #toolkit .text-statement {
+    width: 25%; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
@@ -250,13 +255,13 @@ nav {
     width: 15%;
     padding: 7%; }
 
-  .intro .introduction-title {
+  .hero .introduction-title {
     margin-left: 27%; }
-    .intro .introduction-title .halfStyle {
+    .hero .introduction-title .halfStyle {
       font-size: 10em; }
-  .intro .end-of-spanword {
+  .hero .end-of-spanword {
     font-size: 1.2em; }
-  .intro .text-statement {
+  .hero .text-statement {
     padding: 1.5%;
     font-size: 1.2; }
 
@@ -304,13 +309,13 @@ nav {
       padding: 5%;
       background-position: center center; }
 
-  .intro .introduction-title {
+  .hero .introduction-title {
     margin-left: 27.5%; }
-    .intro .introduction-title .halfStyle {
+    .hero .introduction-title .halfStyle {
       font-size: 7em; }
-  .intro .end-of-spanword {
+  .hero .end-of-spanword {
     font-size: 1em; }
-  .intro .text-statement {
+  .hero .text-statement {
     padding: 0 1.5%;
     font-size: 1em; }
 
@@ -352,13 +357,13 @@ nav {
     width: 25%;
     padding: 5%; }
 
-  .intro .introduction-title {
+  .hero .introduction-title {
     margin-left: 28%; }
-    .intro .introduction-title .halfStyle {
+    .hero .introduction-title .halfStyle {
       font-size: 6em; }
-  .intro .end-of-spanword {
+  .hero .end-of-spanword {
     font-size: .8em; }
-  .intro .text-statement {
+  .hero .text-statement {
     padding: 0 1.5%;
     font-size: 1em; }
 
@@ -400,20 +405,20 @@ nav {
   nav .contact-button {
     padding: 3px 10px; }
 
-  .intro {
+  .hero {
     display: inline; }
-    .intro .introduction-title {
+    .hero .introduction-title {
       margin-left: 0%;
       width: 100%; }
-      .intro .introduction-title .halfStyle {
+      .hero .introduction-title .halfStyle {
         font-size: 4.5em; }
-      .intro .introduction-title .hs-vertical-half:after {
+      .hero .introduction-title .hs-vertical-half:after {
         color: #303030; }
-      .intro .introduction-title .end-of-spanword {
+      .hero .introduction-title .end-of-spanword {
         color: #303030; }
-    .intro .end-of-spanword {
+    .hero .end-of-spanword {
       font-size: .8em; }
-    .intro .text-statement {
+    .hero .text-statement {
       padding: 2% 2% 0 5%;
       font-size: 1.25em; }
 
