@@ -169,13 +169,13 @@ nav {
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%,  #D1D1D1, #D4D4D4 50%);
 	background-color: #EDEDED;
 	width: 100%;
-	height: 160%;
+	height: 250%;
 	padding: 5% 15%;
 	top: 100%;
 	position: relative;
 
 	h1 {
-		padding: 4% 0;
+		padding: 2% 0;
 	} 
 }
 
@@ -275,7 +275,7 @@ nav {
 }
 
 #approach {
-	height: 375px;
+	height: 300px;
 	margin: 1% 0;
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
 	background-color: #EDEDED;
@@ -286,6 +286,24 @@ nav {
 		background-position: center center;
 		background-size: cover;
 		background-color: red;
+	}
+
+	.introduction-title {
+
+		.hs-vertical-half:before {
+			color: #303030;
+		}
+
+		.hs-vertical-half:after {
+			color: #FF3E34;
+			opacity: .8;
+		}
+
+		.end-of-spanword {
+			color: #FF3E34;
+			opacity: .8;
+		}
+
 	}
 
 }
@@ -335,8 +353,6 @@ nav {
 		padding: 0 10%;
 		top: 85%;
 		position: absolute;
-		background: -webkit-linear-gradient( #F7F7F7, #EDEDED); /*gradient color for the all backgrounds*/
-		background-color: #EDEDED;
 	}
 
 	.portfolio-wrap {
@@ -374,16 +390,16 @@ nav {
 
 	.portfolio-wrap:hover {
 
-	.site-link {
-		height: 0;
-		top: 0;
-	}
+		.site-link {
+			height: 0;
+			top: 0;
+		}
 
-	.site {
-		top: 0;
-	}
-}
+		.site {
+			top: 0;
+		}
 
+	}
 
 }
 /*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
@@ -392,7 +408,7 @@ nav {
 @media screen and (max-width: 868px) { /*mobile code for tablets in portrait view*/
 
 	.home {
-		height: 85%;
+		height: 430px;
 		padding: 0 5%;
 	}
 
@@ -404,8 +420,8 @@ nav {
 		}
 
 		.logo {
-			width: 22%;
-			padding: 6%;
+			width: 20%;
+			padding: 5%;
 			background-position: center center;
 		}
 	}
@@ -440,7 +456,7 @@ nav {
 
 	.main-content {
 		padding: 0 5%;
-		top: 80%;
+		top: 96%;
 	}
 
 	.portfolio-wrap {
@@ -461,8 +477,23 @@ nav {
 	#middlewrap {
 
 	}
+
+	#approach {
+		height: 225px;
+	}
 }
 /*end of mobile code for tablets*/
+
+@media only screen and (max-width: 800px) {
+	.home {
+		height: 75%;
+	}
+
+	.main-content {
+		top: 60%;
+	}
+
+}
 
 @media screen and (max-width: 768px) {/*mobile code for smaller devices in landscape view*/
 	.home {
@@ -588,8 +619,8 @@ nav {
 		}
 		
 		.text-statement {
-			padding: 5% 2% 0 5%;
-			font-size: 1.3em;
+			padding: 2% 2% 0 5%;
+			font-size: 1.25em;
 		}
 	} 
 
@@ -634,6 +665,14 @@ nav {
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+	#approach {
+		height: 225px;
+		margin-top: 1.5%;
+		background-color: red;
+	}
+
+
 
 }
 /*end of portrait view on smaller devices*/
