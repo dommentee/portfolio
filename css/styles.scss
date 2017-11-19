@@ -278,7 +278,7 @@ nav {
 #approach {
 	height: 300px;
 	margin: 1% 0;
-	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
+	//background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
 	background-color: #EDEDED;
 	float: left;
 
@@ -321,10 +321,41 @@ nav {
 		.halfStyle {
 			font-size: 8em;
 		}
+
+		.end-of-spanword {
+			color: #FF3E34;
+			font-size: 1.5em;
+		}
 	}
 
 	.text-statement {
 		width: 25%;
+	}
+
+	.kit-wrap {
+		width: 50%;
+		height: 100%;
+		padding: 2% 0;
+		float: left;
+		background-color: pink;
+
+		.kits {
+			width: 30%;
+			float: left;
+			margin: 1%;
+			float: left;
+			background: -webkit-linear-gradient( #F7F7F7, #EDEDED);
+			background-color: #EDEDED; 
+			text-align: center;
+			border: 2px solid #383838;
+			border-radius: 3px;
+			padding: 15px 0;
+
+			h1 {
+				font-size: 2.3em;
+			}
+
+		}
 	}
 }
 

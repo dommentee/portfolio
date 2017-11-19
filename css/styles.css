@@ -214,7 +214,6 @@ nav {
 #approach {
   height: 300px;
   margin: 1% 0;
-  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
   background-color: #EDEDED;
   float: left; }
   #approach .pic-wrap {
@@ -240,8 +239,30 @@ nav {
     margin-left: 0; }
     #toolkit .introduction-title .halfStyle {
       font-size: 8em; }
+    #toolkit .introduction-title .end-of-spanword {
+      color: #FF3E34;
+      font-size: 1.5em; }
   #toolkit .text-statement {
     width: 25%; }
+  #toolkit .kit-wrap {
+    width: 50%;
+    height: 100%;
+    padding: 2% 0;
+    float: left;
+    background-color: pink; }
+    #toolkit .kit-wrap .kits {
+      width: 30%;
+      float: left;
+      margin: 1%;
+      float: left;
+      background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
+      background-color: #EDEDED;
+      text-align: center;
+      border: 2px solid #383838;
+      border-radius: 3px;
+      padding: 15px 0; }
+      #toolkit .kit-wrap .kits h1 {
+        font-size: 2.3em; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
