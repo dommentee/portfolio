@@ -183,17 +183,20 @@ nav {
   -webkit-transition-delay: .6s;
   transition-delay: .6s; }
 
-.portfolio-wrap:hover .site-link {
-  height: 25%;
-  top: -25%; }
-.portfolio-wrap:hover .site {
-  top: -25%; }
+.portfolio-wrap:hover {
+  /*important*/ }
+  .portfolio-wrap:hover .site-link {
+    height: 25%;
+    top: -25%; }
+  .portfolio-wrap:hover .site {
+    top: -25%; }
 
 #middlewrap {
   margin-left: .5%;
   margin-right: .5%; }
 
 #upperechelon {
+  /*site one*/
   background: url("../images/home.jpeg");
   background-position: center center;
   background-size: cover; }
@@ -203,6 +206,7 @@ nav {
     background-size: cover; }
 
 #uwa {
+  /*site tow*/
   background: -webkit-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
   background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
   background-color: #55F5E9; }
@@ -226,6 +230,13 @@ nav {
   #approach .introduction-title .end-of-spanword {
     color: #FF3E34;
     opacity: .8; }
+
+#toolkit {
+  height: 225px;
+  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
+  background-color: #EDEDED; }
+  #toolkit .introduction-title {
+    margin-left: 0; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
