@@ -214,6 +214,7 @@ nav {
 #approach {
   height: 300px;
   margin: 1% 0;
+  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
   background-color: #EDEDED;
   float: left; }
   #approach .pic-wrap {
@@ -239,30 +240,36 @@ nav {
     margin-left: 0; }
     #toolkit .introduction-title .halfStyle {
       font-size: 8em; }
+    #toolkit .introduction-title .hs-vertical-half:before {
+      color: #303030; }
+    #toolkit .introduction-title .hs-vertical-half:after {
+      color: #FF3E34;
+      opacity: .8; }
     #toolkit .introduction-title .end-of-spanword {
       color: #FF3E34;
       font-size: 1.5em; }
   #toolkit .text-statement {
-    width: 25%; }
+    width: 33%; }
   #toolkit .kit-wrap {
     width: 50%;
-    height: 100%;
-    padding: 2% 0;
-    float: left;
-    background-color: pink; }
+    padding: 2%;
+    float: right;
+    background: -webkit-linear-gradient(top, #4EC5A2, #4EC5B8);
+    background-color: #4EC5B8; }
     #toolkit .kit-wrap .kits {
-      width: 30%;
+      width: 31%;
       float: left;
-      margin: 1%;
-      float: left;
+      margin: 1.33% 0;
       background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
       background-color: #EDEDED;
       text-align: center;
       border: 2px solid #383838;
       border-radius: 3px;
-      padding: 15px 0; }
+      padding: 17px 0; }
       #toolkit .kit-wrap .kits h1 {
         font-size: 2.3em; }
+    #toolkit .kit-wrap .middle-kit {
+      margin: 1.33% 3.5%; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
@@ -406,7 +413,16 @@ nav {
 
   #middlewrap {
     margin-left: 1%;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  #toolkit {
+    height: 180px; }
+    #toolkit .introduction-title .halfStyle {
+      font-size: 6em; }
+    #toolkit .introduction-title .end-of-spanword {
+      font-size: .85em; }
+    #toolkit .kit-wrap .kits h1 {
+      font-size: 1.4em; } }
 /*end of landscape view for smaller devices*/
 @media screen and (max-width: 548px) {
   /*mobile code for portrait view on smaller devices*/
@@ -475,8 +491,19 @@ nav {
 
   #approach {
     height: 225px;
-    margin-top: 1.5%;
-    background-color: red; } }
+    margin-top: 1.5%; }
+
+  #toolkit {
+    height: 150px; }
+    #toolkit .introduction-title .halfStyle {
+      font-size: 4.5em; }
+    #toolkit .text-statement {
+      display: none; }
+    #toolkit .kit-wrap {
+      width: 80%;
+      margin: 0 auto; }
+      #toolkit .kit-wrap .kits h1 {
+        font-size: 1.7em; } }
 /*end of portrait view on smaller devices*/
 
 /*# sourceMappingURL=styles.css.map */
