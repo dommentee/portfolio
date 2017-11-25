@@ -90,7 +90,6 @@ nav {
 .hero {
 	width: 100%;
 	height: 70%;
-	border-radius: 3px;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -131,7 +130,6 @@ nav {
 			color: #fff;
 			opacity: .7;
 		}
-
 	}
 
 	.end-of-spanword {/*div that holds "bout" to form about*/
@@ -162,14 +160,13 @@ nav {
 	a {
 		color: #303030;
 	}
-
 }
 
 .main-content {
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%,  #D1D1D1, #D4D4D4 50%);
 	background-color: #EDEDED;
 	width: 100%;
-	height: 250%;
+	height: 300%;
 	padding: 5% 15%;
 	top: 100%;
 	position: relative;
@@ -277,7 +274,7 @@ nav {
 
 #approach {
 	height: 300px;
-	margin: 1% 0;
+	margin-top: 1%;
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
 	background-color: #EDEDED;
 	float: left;
@@ -312,6 +309,7 @@ nav {
 
 #toolkit {
 	height: 225px;
+	margin-bottom: 1%;
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
 	background-color: #EDEDED;
 
@@ -368,6 +366,15 @@ nav {
 		.middle-kit {
 			margin: 1.33% 3.5%;
 		}
+	}
+}
+
+#contact-info {
+	height: 425px;
+
+	h1 {
+		
+
 	}
 }
 
@@ -539,10 +546,6 @@ nav {
     	}
 	}
 
-	#middlewrap {
-
-	}
-
 	#approach {
 		height: 225px;
 	}
@@ -668,7 +671,6 @@ nav {
 			padding: 8%;
 		}
 
-
 	}
 
 	nav {
@@ -720,22 +722,23 @@ nav {
 
 	.portfoliobutton {
 		display: none;
-
-		a {
-			display: none;
-		}
 	}
 
 	.main-content {
-		position: relative;
 		top: 75%;
 		padding: 0 2.5%;
+
+		a {
+			display: inline-block;
+			width: 100%;
+		}
 	}
 
 	.portfolio-wrap {
 		width: 100%;
 		height: 160px;
 		margin-top: 1.5%;
+		border-radius: 8px;
 
 		.sitename {
     		padding: 2%;
@@ -774,7 +777,7 @@ nav {
 		}
 
 		.kit-wrap {
-			width: 80%;
+			width: 100%;
 			margin: 0 auto;
 
 			.kits {
