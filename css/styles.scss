@@ -308,7 +308,7 @@ nav {
 /*end of approach*/
 
 #toolkit {
-	height: 225px;
+	height: 228px;
 	margin-bottom: 1%;
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
 	background-color: #EDEDED;
@@ -318,6 +318,7 @@ nav {
 
 		.halfStyle {
 			font-size: 8em;
+			font-weight: bold;
 		}
 
 		.hs-vertical-half:before {
@@ -370,12 +371,47 @@ nav {
 }
 
 #contact-info {
-	height: 425px;
+	height: 460px;
+	background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+	background-color: #FF3E34;
 
-	h1 {
-		
-
+	.pic-wrap {
+		background: url("../images/contact.jpg");
+		background-size: cover;
 	}
+
+	p {
+		margin: 8% 0;
+	}
+
+	.contacts {
+		width: 80%;
+		font-size: .7em;
+		text-align: center;
+
+		a {	
+			width: 100%;
+			float: left;
+			text-decoration: none;
+		}
+
+		.reachby {
+			padding: 7px 0;
+			border-radius: 3px;
+			border: 2px solid #383838;
+  			background-color: #204775;
+			margin-top: 3%;
+			color: #D4D4D4;
+			transition: all .5s;
+
+			&:hover {
+				background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+				background-color: #FF3E34;
+			}
+
+		}
+	}
+
 }
 
 

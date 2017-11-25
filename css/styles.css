@@ -232,14 +232,15 @@ nav {
 
 /*end of approach*/
 #toolkit {
-  height: 225px;
+  height: 228px;
   margin-bottom: 1%;
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
   background-color: #EDEDED; }
   #toolkit .introduction-title {
     margin-left: 0; }
     #toolkit .introduction-title .halfStyle {
-      font-size: 8em; }
+      font-size: 8em;
+      font-weight: bold; }
     #toolkit .introduction-title .hs-vertical-half:before {
       color: #303030; }
     #toolkit .introduction-title .hs-vertical-half:after {
@@ -272,7 +273,33 @@ nav {
       margin: 1.33% 3.5%; }
 
 #contact-info {
-  height: 425px; }
+  height: 460px;
+  background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+  background-color: #FF3E34; }
+  #contact-info .pic-wrap {
+    background: url("../images/contact.jpg");
+    background-size: cover; }
+  #contact-info p {
+    margin: 8% 0; }
+  #contact-info .contacts {
+    width: 80%;
+    font-size: .7em;
+    text-align: center; }
+    #contact-info .contacts a {
+      width: 100%;
+      float: left;
+      text-decoration: none; }
+    #contact-info .contacts .reachby {
+      padding: 7px 0;
+      border-radius: 3px;
+      border: 2px solid #383838;
+      background-color: #204775;
+      margin-top: 3%;
+      color: #D4D4D4;
+      transition: all .5s; }
+      #contact-info .contacts .reachby:hover {
+        background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+        background-color: #FF3E34; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
