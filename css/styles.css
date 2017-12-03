@@ -67,6 +67,7 @@ nav {
 .hero {
   width: 100%;
   height: 70%;
+  border-radius: 3px;
   position: relative;
   display: flex;
   align-items: center;
@@ -75,7 +76,8 @@ nav {
   .hero .pic-wrap {
     background: url("../images/aboutpic.jpeg");
     background-position: center center;
-    background-size: cover; }
+    background-size: cover;
+    border-radius: 3px 0 0 3px; }
   .hero .introduction-title {
     /*holds the letter with two colors*/
     font-size: 1em;
@@ -123,15 +125,17 @@ nav {
     color: #303030; }
 
 .main-content {
-  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
+  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED, #D1D1D1, #D4D4D4);
   background-color: #EDEDED;
   width: 100%;
-  height: 300%;
+  height: 2000px;
   padding: 5% 15%;
   top: 100%;
   position: relative; }
-  .main-content h1 {
-    padding: 2% 0; }
+  .main-content #portfolio {
+    font-size: 2.8em;
+    padding: 2% 0;
+    margin-bottom: 2%; }
 
 .portfolio-wrap {
   width: 33%;
@@ -209,40 +213,33 @@ nav {
   background-color: #55F5E9; }
 
 #approach {
-  height: 360px;
-  margin-top: 1%;
-  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
-  background-color: #EDEDED;
+  height: 390px;
+  margin: 10% 0 0% 0;
   float: left; }
   #approach .pic-wrap {
-    background: url("../images/.jpeg");
+    background: url("../images/approachpic.jpg");
     background-position: center center;
-    background-size: cover;
-    background-color: red; }
+    background-size: cover; }
   #approach .introduction-title .hs-vertical-half:before {
-    color: #303030; }
+    color: #387094; }
   #approach .introduction-title .hs-vertical-half:after {
-    color: #FF3E34;
-    opacity: .8; }
+    color: #387094; }
   #approach .introduction-title .end-of-spanword {
-    color: #FF3E34;
-    opacity: .8; }
+    color: #387094; }
 
 /*end of approach*/
 #toolkit {
-  height: 228px;
-  margin-bottom: 1%;
-  background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
-  background-color: #EDEDED; }
+  height: 275px;
+  background: transparent; }
   #toolkit .introduction-title {
     margin-left: 0; }
     #toolkit .introduction-title .halfStyle {
       font-size: 8em;
       font-weight: bold; }
     #toolkit .introduction-title .hs-vertical-half:before {
-      color: #4EC5B8; }
+      color: #fff; }
     #toolkit .introduction-title .hs-vertical-half:after {
-      opacity: .8; }
+      color: #4EC5B8; }
     #toolkit .introduction-title .end-of-spanword {
       color: #4EC5B8;
       font-size: 1.5em; }
@@ -251,7 +248,8 @@ nav {
   #toolkit .kit-wrap {
     width: 50%;
     padding: 2%;
-    float: right;
+    border-radius: 0 3px 3px 0;
+    float: left;
     background: -webkit-linear-gradient(top, #4EC5A2, #4EC5B8);
     background-color: #4EC5B8; }
     #toolkit .kit-wrap .kits {
@@ -272,8 +270,10 @@ nav {
 /*end of toolkit*/
 #contact-info {
   height: 450px;
-  background: -webkit-linear-gradient(left, #FF4231, #FF4E3A);
-  background-color: #FF4231; }
+  background: -webkit-linear-gradient(left, #E34342, #DB4642);
+  background-color: #E34342; }
+  #contact-info .hs-vertical-half:before {
+    color: #E34342; }
   #contact-info .pic-wrap {
     background: url("../images/contact.jpg");
     background-size: cover; }
@@ -324,6 +324,7 @@ nav {
     display: none; }
 
   .main-content {
+    height: 1900px;
     padding: 0 10%;
     top: 85%;
     position: absolute; }
@@ -412,6 +413,7 @@ nav {
     height: 75%; }
 
   .main-content {
+    height: 125%;
     top: 60%; } }
 @media screen and (max-width: 768px) {
   /*mobile code for smaller devices in landscape view*/
@@ -433,6 +435,7 @@ nav {
     font-size: 1em; }
 
   .main-content {
+    height: 1300px;
     top: 90%;
     padding: 0 5%; }
 
@@ -497,13 +500,9 @@ nav {
       margin-left: 0%;
       width: 100%; }
       .hero .introduction-title .halfStyle {
-        font-size: 4.5em; }
-      .hero .introduction-title .hs-vertical-half:after {
-        color: #303030; }
-      .hero .introduction-title .end-of-spanword {
-        color: #303030; }
+        font-size: 3.5em; }
     .hero .end-of-spanword {
-      font-size: .9em; }
+      font-size: 1.1em; }
     .hero .text-statement {
       padding: 2% 2% 0 5%;
       font-size: 1.25em; }

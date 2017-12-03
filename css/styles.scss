@@ -90,6 +90,7 @@ nav {
 .hero {
 	width: 100%;
 	height: 70%;
+	border-radius: 3px;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -100,6 +101,8 @@ nav {
 		background: url("../images/aboutpic.jpeg");
 		background-position: center center;
 		background-size: cover;
+		border-radius: 3px 0 0 3px ;
+
 	}
 
 	.introduction-title {/*holds the letter with two colors*/ 
@@ -161,16 +164,18 @@ nav {
 }
 
 .main-content {
-	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%,  #D1D1D1, #D4D4D4 50%);
+	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED, #D1D1D1, #D4D4D4);
 	background-color: #EDEDED;
 	width: 100%;
-	height: 300%;
+	height: 2000px;
 	padding: 5% 15%;
 	top: 100%;
 	position: relative;
 
-	h1 {
+	#portfolio {
+		font-size: 2.8em;
 		padding: 2% 0;
+		margin-bottom: 2%
 	} 
 }
 
@@ -271,33 +276,29 @@ nav {
 
 
 #approach {
-	height: 360px;
-	margin-top: 1%;
-	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
-	background-color: #EDEDED;
+	height: 390px;
+	margin: 10% 0 0% 0;
 	float: left;
 
 	.pic-wrap {
-		background: url("../images/.jpeg");
+		background: url("../images/approachpic.jpg");
 		background-position: center center;
 		background-size: cover;
-		background-color: red;
 	}
 
 	.introduction-title {
 
 		.hs-vertical-half:before {
-			color: #303030;
+			color: #387094; 
 		}
 
 		.hs-vertical-half:after {
-			color: #FF3E34;
-			opacity: .8;
+			color: #387094; 
+
 		}
 
 		.end-of-spanword {
-			color: #FF3E34;
-			opacity: .8;
+			color: #387094; 
 		}
 
 	}
@@ -306,10 +307,8 @@ nav {
 /*end of approach*/
 
 #toolkit {
-	height: 228px;
-	margin-bottom: 1%;
-	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED); 
-	background-color: #EDEDED;
+	height: 275px;
+	background: transparent;
 
 	.introduction-title {
 		margin-left: 0;
@@ -320,11 +319,12 @@ nav {
 		}
 
 		.hs-vertical-half:before {
-			color: #4EC5B8
+			color: #fff;
+			
 		}
 
 		.hs-vertical-half:after {
-			opacity: .8;
+			color: #4EC5B8
 		}
 
 		.end-of-spanword {
@@ -340,7 +340,8 @@ nav {
 	.kit-wrap {
 		width: 50%;
 		padding: 2%;
-		float: right;
+		border-radius: 0 3px 3px 0 ;
+		float: left;
 		background: -webkit-linear-gradient(top, #4EC5A2, #4EC5B8);
 		background-color: #4EC5B8;
 
@@ -369,8 +370,12 @@ nav {
 
 #contact-info {
 	height: 450px;
-	background: -webkit-linear-gradient(left, #FF4231, #FF4E3A);
-	background-color: #FF4231;
+	background: -webkit-linear-gradient(left, #E34342, #DB4642);
+	background-color: #E34342;
+
+	.hs-vertical-half:before {
+		color: #E34342;
+	}
 
 	.pic-wrap {
 		background: url("../images/contact.jpg");
@@ -410,10 +415,8 @@ nav {
 
 }
 
-
-
-
 /* CSS for mobile version*/
+
 
 @media screen and (max-width: 1024px) {/*mobile code for smaller tabs X laptop in portrait view*/
 	.home {
@@ -454,6 +457,7 @@ nav {
 	}
 
 	.main-content {
+		height: 1900px;
 		padding: 0 10%;
 		top: 85%;
 		position: absolute;
@@ -604,6 +608,7 @@ nav {
 	}
 
 	.main-content {
+		height: 125%;
 		top: 60%;
 	}
 
@@ -645,6 +650,7 @@ nav {
 	}
 
 	.main-content {
+		height: 1300px;
 		top: 90%;
 		padding: 0 5%;
 	}
@@ -758,21 +764,21 @@ nav {
 			width: 100%;
 
 			.halfStyle {
-				font-size: 4.5em;
+				font-size: 3.5em;
 			}
 
 			.hs-vertical-half:after {
-				color: #303030;
+				
 			}
 
 			.end-of-spanword {
-				color: #303030;
+				
 			}
 
 		}
 
 		.end-of-spanword {
-			font-size: .9em;
+			font-size: 1.1em;
 		}
 		
 		.text-statement {
