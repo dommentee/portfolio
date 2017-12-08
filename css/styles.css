@@ -8,8 +8,9 @@ html {
 
 body {
   height: 100%;
-  font-family: "Work Sans", georgia, arial, sans-serif;
-  color: #303030;
+  font-family: 'Gudea', sans-serif;
+  color: #3D3D3D;
+  font-weight: bold;
   background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
   /*gradient color for the all backgrounds*/
   background-color: #EDEDED; }
@@ -68,16 +69,19 @@ nav {
   width: 100%;
   height: 70%;
   border-radius: 3px;
+  box-shadow: 4px 4px 4px #CFCFCF;
   position: relative;
   display: flex;
   align-items: center;
+  font-family: "Work Sans";
   background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
   background-color: #D4D4D4; }
   .hero .pic-wrap {
     background: url("../images/aboutpic.jpeg");
     background-position: center center;
     background-size: cover;
-    border-radius: 3px 0 0 3px; }
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 4px 4px #CFCFCF; }
   .hero .introduction-title {
     /*holds the letter with two colors*/
     font-size: 1em;
@@ -128,19 +132,22 @@ nav {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED, #D1D1D1, #D4D4D4);
   background-color: #EDEDED;
   width: 100%;
-  height: 2000px;
+  height: 2100px;
   padding: 5% 15%;
   top: 100%;
   position: relative; }
-  .main-content #portfolio {
+  .main-content #bigscreenhero {
     font-size: 2.8em;
     padding: 2% 0;
     margin-bottom: 2%; }
+  .main-content #smallscreenhero {
+    display: none; }
 
 .portfolio-wrap {
   width: 33%;
   height: 295px;
   border-radius: 5px;
+  box-shadow: 0 4px 4px #CFCFCF;
   float: left;
   position: relative;
   overflow: hidden;
@@ -214,7 +221,7 @@ nav {
 
 #approach {
   height: 390px;
-  margin: 10% 0 0% 0;
+  margin: 8% 0 3% 0;
   float: left; }
   #approach .pic-wrap {
     background: url("../images/approachpic.jpg");
@@ -229,8 +236,9 @@ nav {
 
 /*end of approach*/
 #toolkit {
-  height: 275px;
-  background: transparent; }
+  height: 300px;
+  background: transparent;
+  margin: 3% 0; }
   #toolkit .introduction-title {
     margin-left: 0; }
     #toolkit .introduction-title .halfStyle {
@@ -246,7 +254,7 @@ nav {
   #toolkit .text-statement {
     width: 33%; }
   #toolkit .kit-wrap {
-    width: 50%;
+    width: 48%;
     padding: 2%;
     border-radius: 0 3px 3px 0;
     float: left;
@@ -288,7 +296,7 @@ nav {
       float: left;
       text-decoration: none; }
     #contact-info .contacts .reachby {
-      padding: 7px 0;
+      padding: 8px 0;
       border-radius: 3px;
       border: 2px solid #383838;
       background-color: #204775;
@@ -297,6 +305,23 @@ nav {
       transition: all .5s; }
       #contact-info .contacts .reachby:hover {
         background-color: #387094; }
+
+footer {
+  height: 150px;
+  margin-top: 14%;
+  text-align: center; }
+  footer a {
+    text-decoration: none; }
+  footer h2 {
+    margin: 0 0 9% 0; }
+    footer h2 a {
+      color: #303030; }
+  footer span {
+    background-color: #387094;
+    border-radius: 3px;
+    color: #D4D4D4;
+    display: inline-block;
+    padding: 8px 15px; }
 
 /* CSS for mobile version*/
 @media screen and (max-width: 1024px) {
@@ -324,13 +349,14 @@ nav {
     display: none; }
 
   .main-content {
-    height: 1900px;
+    height: 2000px;
     padding: 0 10%;
     top: 85%;
     position: absolute; }
 
   .portfolio-wrap {
-    height: 280px; }
+    height: 280px;
+    font-size: 1.2em; }
     .portfolio-wrap .sitelogo {
       width: 37%;
       padding: 37%;
@@ -358,7 +384,7 @@ nav {
 @media screen and (max-width: 868px) {
   /*mobile code for tablets in portrait view*/
   .home {
-    height: 430px;
+    height: 600px;
     padding: 0 5%; }
 
   header {
@@ -408,12 +434,18 @@ nav {
     #contact-info h1 {
       font-size: 1.7em; } }
 /*end of mobile code for tablets*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 812px) {
   .home {
-    height: 75%; }
+    height: 550px; }
 
   .main-content {
-    height: 125%;
+    top: 120%; } }
+@media only screen and (max-width: 800px) {
+  .home {
+    height: 800px; }
+
+  .main-content {
+    height: 1650px;
     top: 60%; } }
 @media screen and (max-width: 768px) {
   /*mobile code for smaller devices in landscape view*/
@@ -435,9 +467,15 @@ nav {
     font-size: 1em; }
 
   .main-content {
-    height: 1300px;
-    top: 90%;
+    height: 1400px;
+    top: 88%;
     padding: 0 5%; }
+    .main-content #bigscreenhero {
+      display: none; }
+    .main-content #smallscreenhero {
+      display: block;
+      font-size: 2em;
+      padding: 20px 0; }
 
   .portfolio-wrap {
     width: 49.5%;
@@ -455,19 +493,29 @@ nav {
     margin-left: 1%;
     margin-right: 0; }
 
+  #approach {
+    margin-bottom: 3%; }
+
   #toolkit {
-    height: 180px; }
-    #toolkit .introduction-title .halfStyle {
-      font-size: 6em; }
-    #toolkit .introduction-title .end-of-spanword {
-      font-size: .85em; }
-    #toolkit .kit-wrap .kits h1 {
-      font-size: 1.4em; }
+    height: 180px;
+    margin: 3% 0; }
+    #toolkit .introduction-title {
+      padding: 0;
+      width: 20%; }
+      #toolkit .introduction-title .halfStyle {
+        font-size: 6em; }
+      #toolkit .introduction-title .end-of-spanword {
+        font-size: .85em; }
+    #toolkit .kit-wrap {
+      width: 60%; }
+      #toolkit .kit-wrap .kits h1 {
+        font-size: 1.4em; }
 
   #contact-info {
     height: 250px; }
     #contact-info h1 {
-      font-size: 1.3em; }
+      font-size: 1.2em;
+      font-weight: bolder; }
     #contact-info p {
       margin: .5% 0; }
     #contact-info .contacts {
@@ -501,6 +549,10 @@ nav {
       width: 100%; }
       .hero .introduction-title .halfStyle {
         font-size: 3.5em; }
+      .hero .introduction-title .hs-vertical-half:after {
+        color: #FF4231; }
+      .hero .introduction-title .end-of-spanword {
+        color: #FF4231; }
     .hero .end-of-spanword {
       font-size: 1.1em; }
     .hero .text-statement {
@@ -517,6 +569,8 @@ nav {
   .main-content {
     top: 75%;
     padding: 0 2.5%; }
+    .main-content #smallscreenhero {
+      font-size: 1.7em; }
     .main-content a {
       display: inline-block;
       width: 100%; }
@@ -554,16 +608,20 @@ nav {
       #toolkit .kit-wrap .kits h1 {
         font-size: 1.7em; }
 
-  #contact-info .introduction-title .halfStyle {
-    display: none; }
-  #contact-info .introduction-title .end-of-spanword {
-    display: none; }
-  #contact-info .text-statement {
-    padding: 0; }
-  #contact-info .contacts {
-    width: 65%; }
-    #contact-info .contacts .reachby {
-      padding: 6px 0; } }
+  #contact-info {
+    width: 100%; }
+    #contact-info .introduction-title {
+      display: block; }
+      #contact-info .introduction-title .halfStyle {
+        display: none; }
+      #contact-info .introduction-title .end-of-spanword {
+        display: none; }
+    #contact-info .text-statement {
+      padding: 0; }
+    #contact-info .contacts {
+      width: 65%; }
+      #contact-info .contacts .reachby {
+        padding: 6px 0; } }
 /*end of portrait view on smaller devices*/
 
 /*# sourceMappingURL=styles.css.map */
