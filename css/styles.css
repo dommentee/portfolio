@@ -132,7 +132,7 @@ nav {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED, #D1D1D1, #D4D4D4);
   background-color: #EDEDED;
   width: 100%;
-  height: 2100px;
+  height: 2075px;
   padding: 5% 15%;
   top: 100%;
   position: relative; }
@@ -279,7 +279,8 @@ nav {
 #contact-info {
   height: 450px;
   background: -webkit-linear-gradient(left, #E34342, #DB4642);
-  background-color: #E34342; }
+  background-color: #E34342;
+  margin-bottom: 10%; }
   #contact-info .hs-vertical-half:before {
     color: #E34342; }
   #contact-info .pic-wrap {
@@ -307,13 +308,13 @@ nav {
         background-color: #387094; }
 
 footer {
-  height: 150px;
-  margin-top: 14%;
+  width: 100%;
   text-align: center; }
   footer a {
-    text-decoration: none; }
+    text-decoration: none;
+    margin: 0 auto; }
   footer h2 {
-    margin: 0 0 9% 0; }
+    margin: 0 0 10% 0; }
     footer h2 a {
       color: #303030; }
   footer span {
@@ -396,15 +397,17 @@ footer {
       padding: 5%;
       background-position: center center; }
 
-  .hero .introduction-title {
-    margin-left: 27.5%; }
-    .hero .introduction-title .halfStyle {
-      font-size: 7em; }
-  .hero .end-of-spanword {
-    font-size: 1em; }
-  .hero .text-statement {
-    padding: 0 1.5%;
-    font-size: 1em; }
+  .hero {
+    float: left; }
+    .hero .introduction-title {
+      margin-left: 27.5%; }
+      .hero .introduction-title .halfStyle {
+        font-size: 7em; }
+    .hero .end-of-spanword {
+      font-size: 1em; }
+    .hero .text-statement {
+      padding: 0 1.5%;
+      font-size: 1em; }
 
   .portfoliobutton {
     display: none; }
@@ -497,7 +500,7 @@ footer {
     margin-bottom: 3%; }
 
   #toolkit {
-    height: 180px;
+    height: 200px;
     margin: 3% 0; }
     #toolkit .introduction-title {
       padding: 0;
@@ -512,7 +515,7 @@ footer {
         font-size: 1.4em; }
 
   #contact-info {
-    height: 250px; }
+    height: 265px; }
     #contact-info h1 {
       font-size: 1.2em;
       font-weight: bolder; }
@@ -522,12 +525,19 @@ footer {
       width: 70%; }
       #contact-info .contacts .reachby {
         padding: 4px 0;
-        margin-top: 2%; } }
+        margin-top: 2%; }
+
+  footer {
+    float: left; }
+    footer h2 {
+      margin: 5% 0; }
+      footer h2 a {
+        color: #303030; } }
 /*end of landscape view for smaller devices*/
 @media screen and (max-width: 548px) {
   /*mobile code for portrait view on smaller devices*/
   .home {
-    height: 55%;
+    height: 400px;
     padding: 0 2.5%;
     position: fixed; }
 
@@ -560,24 +570,21 @@ footer {
       font-size: 1.25em; }
 
   .pic-wrap {
-    width: 0;
-    display: none; }
-
-  .portfoliobutton {
     display: none; }
 
   .main-content {
-    top: 75%;
+    top: 60%;
+    height: 1250px;
     padding: 0 2.5%; }
     .main-content #smallscreenhero {
-      font-size: 1.7em; }
+      font-size: 1.5em; }
     .main-content a {
       display: inline-block;
       width: 100%; }
 
   .portfolio-wrap {
     width: 100%;
-    height: 160px;
+    height: 165px;
     margin-top: 1.5%;
     border-radius: 8px; }
     .portfolio-wrap .sitename {
@@ -609,18 +616,22 @@ footer {
         font-size: 1.7em; }
 
   #contact-info {
-    width: 100%; }
-    #contact-info .introduction-title {
-      display: block; }
-      #contact-info .introduction-title .halfStyle {
-        display: none; }
-      #contact-info .introduction-title .end-of-spanword {
-        display: none; }
+    height: 355px; }
+    #contact-info h1 {
+      font-size: 1.4em; }
+    #contact-info .introduction-title .halfStyle {
+      display: none; }
+    #contact-info .introduction-title .end-of-spanword {
+      display: none; }
     #contact-info .text-statement {
-      padding: 0; }
+      margin: 2% 0; }
+      #contact-info .text-statement p {
+        margin: 3% 0; }
     #contact-info .contacts {
-      width: 65%; }
+      width: 95%;
+      margin: 0 auto; }
       #contact-info .contacts .reachby {
+        margin: 1.5% 0;
         padding: 6px 0; } }
 /*end of portrait view on smaller devices*/
 
