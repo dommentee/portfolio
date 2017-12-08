@@ -442,6 +442,7 @@ footer {
     height: 550px; }
 
   .main-content {
+    height: 1650px;
     top: 120%; } }
 @media only screen and (max-width: 800px) {
   .home {
@@ -470,7 +471,7 @@ footer {
     font-size: 1em; }
 
   .main-content {
-    height: 1400px;
+    height: 1415px;
     top: 88%;
     padding: 0 5%; }
     .main-content #bigscreenhero {
@@ -515,7 +516,7 @@ footer {
         font-size: 1.4em; }
 
   #contact-info {
-    height: 265px; }
+    height: 280px; }
     #contact-info h1 {
       font-size: 1.2em;
       font-weight: bolder; }
@@ -573,8 +574,8 @@ footer {
     display: none; }
 
   .main-content {
-    top: 60%;
-    height: 1250px;
+    top: 70%;
+    height: 1270px;
     padding: 0 2.5%; }
     .main-content #smallscreenhero {
       font-size: 1.5em; }
@@ -616,7 +617,7 @@ footer {
         font-size: 1.7em; }
 
   #contact-info {
-    height: 355px; }
+    height: 385px; }
     #contact-info h1 {
       font-size: 1.4em; }
     #contact-info .introduction-title .halfStyle {
@@ -632,7 +633,11 @@ footer {
       margin: 0 auto; }
       #contact-info .contacts .reachby {
         margin: 1.5% 0;
-        padding: 6px 0; } }
+        padding: 6px 0; }
+
+  footer h2 {
+    font-size: 1em;
+    margin-bottom: 9%; } }
 /*end of portrait view on smaller devices*/
 
 /*# sourceMappingURL=styles.css.map */

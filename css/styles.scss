@@ -653,7 +653,7 @@ footer {
 	}
 
 	.main-content {
-
+		height: 1650px;
 		top: 120%;
 	}
 
@@ -707,7 +707,7 @@ footer {
 	}
 
 	.main-content {
-		height: 1400px;
+		height: 1415px;
 		top: 88%;
 		padding: 0 5%;
 
@@ -781,7 +781,7 @@ footer {
 	}
 
 	#contact-info {
-		height: 265px;
+		height: 280px;
 
 		h1 {
 			font-size: 1.2em;
@@ -888,8 +888,8 @@ footer {
 	}
 
 	.main-content {
-		top: 60%;
-		height: 1250px;
+		top: 70%;
+		height: 1270px;
 		padding: 0 2.5%;
 
 		#smallscreenhero {
@@ -960,7 +960,7 @@ footer {
 	}
 
 	#contact-info {
-		height: 355px;
+		height: 385px;
 
 		h1 {
 			font-size: 1.4em;
@@ -996,6 +996,13 @@ footer {
 				margin: 1.5% 0;
 				padding: 6px 0;
 			}
+		}
+	}
+
+	footer {
+		h2 {
+			font-size: 1em;
+			margin-bottom: 9%;
 		}
 	}
 
