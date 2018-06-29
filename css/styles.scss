@@ -72,16 +72,15 @@ nav {
 	}
 
 	.contact-button {
-		padding: 5px 13px;
+		padding: 3px 18px;
 		border-radius: 2px;
+		color: #387094 ;
 		margin: 0;
-		border: 2.3px solid #303030;
+		border: 2.3px solid #387094; ;
 		transition: all .3s;
 
 		&:hover {
 			background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-			background-color: #D4D4D4;
-			color: #FF4231;
 		}
 	}
 
@@ -92,20 +91,18 @@ nav {
 	width: 100%;
 	height: 70%;
 	border-radius: 3px;
-	box-shadow: 4px 4px 4px #CFCFCF;
+	box-shadow: 0 6px 6px #BABABA;
 	position: relative;
 	display: flex;
 	align-items: center;
-	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-	background-color: #D4D4D4;
+	background: -webkit-linear-gradient(left, #D1D1D1, #DBDBDB);
+	background-color: #DBDBDB;
 
 	.pic-wrap {
 		background: url("../images/aboutpic.jpeg");
 		background-position: center center;
 		background-size: cover;
-		border-radius: 3px 0 0 3px ;
-		box-shadow: 0 4px 4px #CFCFCF;
-
+		border-radius: 3px 0 0 3px;
 	}
 
 	.introduction-title {/*holds the letter with two colors*/ 
@@ -130,18 +127,18 @@ nav {
 			z-index: 2;
 			position: absolute;
 			overflow: hidden;
-			color: #FF4231;
+			color: #DBDBDB;
 		}
 
 		.hs-vertical-half:after {
-			color: #fff;
+			color: #303030;
 		}
 	}
 
 	.end-of-spanword {/*div that holds "bout" to form about*/
 		float: left;
 		font-size: 1.5em;
-		color: #fff;
+		color: #303030;
 	}
 
 	.text-statement {/*hold the paragraph introduction*/
@@ -159,6 +156,8 @@ nav {
 	height: 100%;
 	width: 33.33%;
 	position: absolute;
+	left: 0;
+	top: 0;
 }
 
 .portfoliobutton {
@@ -175,7 +174,6 @@ nav {
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED);
 	background-color: #EDEDED;
 	width: 100%;
-	height: 2075px;
 	padding: 5% 15%;
 	top: 100%;
 	position: relative;
@@ -189,8 +187,6 @@ nav {
 	#smallscreenhero {
 		display: none;
 	}
-
-
 }
 
 .portfolio-wrap {
@@ -201,7 +197,6 @@ nav {
 	float: left;
 	position: relative;
 	overflow: hidden;
-	float: left;
 	transition: all .85s ease;
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
@@ -209,7 +204,7 @@ nav {
     .sitename {
     	float: right;
     	padding: 2.5%;
-    	color: #fff;
+    	color: #FAFAFA;
     	font-size: 1.5em;
     	font-weight: bolder;
     	text-align: right;
@@ -231,7 +226,7 @@ nav {
 	transition: .85s ease;
 	-webkit-transition-delay: .6s;
     transition-delay: .6s;
-    background-color: teal;
+    background-color: #666666;
 
     .sitename {
     	display: none;
@@ -285,105 +280,107 @@ nav {
   	background-color: #55F5E9;
 
   	.sitelogo {
-  		
+  		width: 80%;
+  		padding: 0;
+  		margin: 30% auto;
+		font-size: 2em;
+		font-weight: 600;
+		text-align: center;
+		color: #EDEDED;
+
+		span {
+			padding: 0  0 0px 50px;
+			color: #202D85;
+			font-weight: 600;
+			border-top: 5px solid #EDEDED;
+		}
   	}
 }
 
+#TBD {
+	color: #FAFAFA;
+}
 
 #approach {
-	height: 390px;
+	height: 450px;
 	margin: 8% 0 3% 0;
 	float: left;
+	background: #FAFAFA;
 
 	.pic-wrap {
 		background: url("../images/approachpic.jpg");
 		background-position: center center;
-		background-size: cover;
+		background-size: cover;	
 	}
 
 	.introduction-title {
 
 		.hs-vertical-half:before {
-			color: #387094; 
+			color: #FAFAFA; 
 		}
 
 		.hs-vertical-half:after {
 			color: #387094; 
-
 		}
 
 		.end-of-spanword {
 			color: #387094; 
+		}
+	}
+
+	.text-statement {
+
+		p {
+		 	font-size: 1em;
+		 	padding: 0 0 25px 0;
+		}
+
+		h3 {
+			color: #387094;
+		}
+
+		.kit {
+			width: 100%;
+			float: left;
+			display: flex;
+			align-itmes: center;
+
+			p{
+				font-weight: 300;
+				margin: 0;
+			}
+
+			.kitwrap {	
+				width: 32%;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				float: left;
+				padding: 30px 5px;
+				border: 2px solid;
+				border-radius: 5px;
+				color: #387094; 
+				font-size: 1.8em;
+				font-weight: 600;
+
+				i{
+					margin: 0 auto;
+				}
+
+				span {
+					margin: 0 auto;
+				}
+			}
+
+			.kitwrap:nth-child(2) {
+				margin: 0 2%;
+			}
 		}
 
 	}
 
 }
 /*end of approach*/
-
-#toolkit {
-	height: 300px;
-	background: transparent;
-	margin: 3% 0;
-
-
-	.introduction-title {
-		margin-left: 0;
-
-		.halfStyle {
-			font-size: 8em;
-			font-weight: bold;
-		}
-
-		.hs-vertical-half:before {
-			color: #fff;
-			
-		}
-
-		.hs-vertical-half:after {
-			color: #4EC5B8
-		}
-
-		.end-of-spanword {
-			color: #4EC5B8;
-			font-size: 1.5em;
-		}
-	}
-
-	.text-statement {
-		width: 33%;
-	}
-
-	.kit-wrap {
-		width: 48%;
-		padding: 2%;
-		border-radius: 0 3px 3px 0 ;
-		float: left;
-		background: -webkit-linear-gradient(top, #4EC5A2, #4EC5B8);
-		background-color: #4EC5B8;
-
-		.kits {
-			width: 31%;
-			float: left;
-			margin: 1.33% 0;
-			background: -webkit-linear-gradient( #F7F7F7, #EDEDED);
-			background-color: #EDEDED; 
-			text-align: center;
-			border: 2px solid #383838;
-			border-radius: 3px;
-			padding: 17px 0;
-
-			h1 {
-				font-size: 2.3em;
-			}
-		}
-
-		.middle-kit {
-			margin: 1.33% 3.5%;
-		}
-	}
-}
-/*end of toolkit*/
 
 #contact-info {
 	height: 450px;
@@ -393,6 +390,14 @@ nav {
 
 	.hs-vertical-half:before {
 		color: #E34342;
+	}
+
+	.hs-vertical-half:after {
+		color: #FAFAFA; 
+	}
+
+	.end-of-spanword {
+		color: #FAFAFA;
 	}
 
 	.pic-wrap {
@@ -467,7 +472,7 @@ footer {
 @media screen and (max-width: 1024px) {/*mobile code for smaller tabs X laptop in portrait view*/
 	.home {
 		padding: 0 10%;
-		height: 88%;
+		height: 80%;
 		position: relative;
 	}
 
@@ -503,34 +508,14 @@ footer {
 	}
 
 	.main-content {
-		height: 2000px;
 		padding: 0 10%;
-		top: 85%;
+		top: 80%;
 		position: absolute;
 	}
 
 	.portfolio-wrap {
 		height: 280px;
 		font-size: 1.2em;
-
-		.sitename {
-
-		}
-
-		.sitelogo {
-    		width: 37%;
-    		padding: 37%;
-    		margin: 0 auto;
-    
-		}
-
-	}
-
-    .sitelogo {
-    	width: 45%;
-    	padding: 45%;
-    	margin: 0 auto;
-    
 	}
 
 	.site {
@@ -539,8 +524,24 @@ footer {
     	}
 	}
 
-	.site-link{
+	#uwa {
 
+  		.sitelogo {
+  			width: 80%;
+  			padding: 0;
+  			margin: 18% auto;
+			font-size: 1.8em;
+  		}	
+	}
+
+	#TBD {
+		.sitelogo {
+			display: none;
+		}
+
+		.sitename {
+			margin: 40% auto;
+		}
 	}
 
 	.portfolio-wrap:hover {
@@ -561,7 +562,6 @@ footer {
 			font-size: 1.7em;
 		}
 	}
-
 }
 /*end of mobile code for for smaller tablet/laptop hybrid in portrait view*/
 
@@ -637,7 +637,20 @@ footer {
 	}
 
 	#approach {
-		height: 250px;
+		height: 350px;
+
+		.text-statement {
+
+			.kit {
+
+				.kitwrap {	
+					padding: 25px 3px;
+					font-size: 1.5em;
+				}
+			}
+
+		}
+
 	}
 
 	#contact-info {
@@ -653,12 +666,10 @@ footer {
 @media only screen and (max-width: 812px) {
 	.home {
 		height: 550px;
-
 	}
 
 	.main-content {
-		height: 1650px;
-		top: 120%;
+		top: 130%;
 	}
 
 }
@@ -669,7 +680,6 @@ footer {
 	}
 
 	.main-content {
-		height: 1650px;
 		top: 60%;
 	}
 
@@ -677,7 +687,7 @@ footer {
 
 @media screen and (max-width: 768px) {/*mobile code for smaller devices in landscape view*/
 	.home {
-		height: 97%;
+		height: 70%;
 	}
 
 	header {
@@ -685,7 +695,6 @@ footer {
 		.logo {
 			width: 25%;
 			padding: 5%;
-
 		}
 	}
 
@@ -711,13 +720,11 @@ footer {
 	}
 
 	.main-content {
-		height: 1415px;
-		top: 88%;
+		top: 60%;
 		padding: 0 5%;
 
 		#bigscreenhero {
 			display: none;
-
 		} 
 
 		#smallscreenhero {
@@ -725,7 +732,6 @@ footer {
 			font-size: 2em;
 			padding: 20px 0;
 		}
-
 	}
 
 	.portfolio-wrap {
@@ -750,36 +756,27 @@ footer {
 		margin-right: 0;
 	}
 
-	#approach {
-		margin-bottom: 3%;
+	#uwa {/*site tow*/
+
+  		.sitelogo {
+  			width: 80%;
+  			padding: 0;
+  			margin: 10% auto;
+			font-size: 1.5em;
+  		}	
 	}
 
+	#approach {
+		height: 330px;
 
-	#toolkit {
-		height: 200px;
-		margin: 3% 0;
+		.text-statement {
 
-		.introduction-title {
-			padding: 0;
-			width: 20%;
-			.halfStyle {
-				font-size: 6em;
-			}
+			.kit {
 
-			.end-of-spanword {
-				font-size: .85em;
-			}
-		}
-
-		.kit-wrap {
-			width: 60%;
-
-			.kits {
-
-				h1 {
-					font-size: 1.4em;
+				.kitwrap {	
+					padding: 20px 0;
+					font-size: 1.2em;
 				}
-
 			}
 		}
 	}
@@ -790,6 +787,7 @@ footer {
 		h1 {
 			font-size: 1.2em;
 			font-weight: bolder;
+			margin-bottom: 2%;
 		}
 
 		p {
@@ -801,11 +799,9 @@ footer {
 
 			.reachby {
 				padding: 4px 0;
-				margin-top: 2%;
-
+				margin-top: 4%;
 			}
 		}	
-
 	}
 
 	footer {
@@ -817,15 +813,21 @@ footer {
 				color: #303030;
 			}
 		}	
-
-		span {
-
-		}
-
 	}
 
 }
 /*end of landscape view for smaller devices*/
+
+
+@media screen and (max-width: 736px) {
+	.home {
+		height: 100%;
+	}
+
+	.main-content {
+		top: 90%;
+	}
+}
 
 @media screen and (max-width: 548px) {/*mobile code for portrait view on smaller devices*/
 	.home {
@@ -851,13 +853,17 @@ footer {
 		}
 
 		.contact-button {
-			padding: 3px 10px;
+			padding: 2px 15px;
 		}
 	}
 
 	.hero {
 		display: inline;
 		background: transparent;
+
+		h2 {
+			font-weight: 300;
+		}
 
 
 		.introduction-title {
@@ -866,7 +872,6 @@ footer {
 
 			.halfStyle {
 				font-size: 3.5em;
-
 			}
 
 			.hs-vertical-half:before {
@@ -890,7 +895,7 @@ footer {
 		
 		.text-statement {
 			padding: 2% 2% 0 5%;
-			font-size: 1.2em;
+			font-size: 1em;
 		}
 	} 
 
@@ -899,13 +904,11 @@ footer {
 	}
 
 	.main-content {
-		top: 70%;
-		height: 1365px;
+		top: 380px;
 		padding: 0 3.5%;
 
 		#smallscreenhero {
 			font-size: 1.5em;
-
 		}
 
 		a {
@@ -913,6 +916,27 @@ footer {
 			width: 100%;
 		}
 	}
+
+	#uwa {
+
+  		.sitelogo {
+  			width: 80%;
+  			padding: 0;
+  			margin: 5% auto;
+			font-size: 1.1em;
+  		}	
+	}
+
+	#TBD {
+		.sitelogo {
+			display: none;
+		}
+
+		.sitename {
+			margin: 10% auto;
+		}
+	}
+
 
 	.portfolio-wrap {
 		width: 100%;
@@ -940,62 +964,53 @@ footer {
 	}
 
 	#approach {
-		margin: 20% 0 5% 0;
-		background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-		background-color: #D4D4D4;
-	}
+		height: 350px;
+		margin: 10% 0 5% 0;
 
-	#toolkit {
-		display: none;
+		h3 {
+			display: none;
+		}
+
 		.introduction-title {
 
-			.halfStyle {
-				font-size: 4.5em;
+			.hs-vertical-half:before {
+				color: #387094; 
 			}
 		}
 
 		.text-statement {
-			display: none;
-		}
+			p {
+				padding: 2px;
+			}
 
-		.kit-wrap {
-			display: inline-block;
-			width: 100%;
-			float: left;
+			.kit {
 
-			.kits {
-				
-				h1 {
-					font-size: 1.7em;
+				padding: 5px 0;
+				.kitwrap {	
+					padding: 25px 0;
+					font-size: 1.5em;
 				}
 			}
 		}
 
 	}
 
+
 	#contact-info {
 		height: 400px;
 
-
 		h1 {
 			font-size: 1.4em;
+			font-weight: 600;
 		}
 
 		.introduction-title {
-			
-
-			.halfStyle {
-				display: none;
-			}
-
-			.end-of-spanword {
-				display: none;
-			}
+			display: none;
 
 		}
 
 		.text-statement {
-			margin: 3% 0;
+			margin: 5% 0;
 
 			p {
 				margin: 3% 0;
@@ -1005,18 +1020,18 @@ footer {
 
 		.contacts {
 			width: 95%;
-			margin: 0 auto;
+			margin: 15% auto;
 
 			.reachby {
-				margin: 1.5% 0;
-				padding: 6px 0;
+				margin: 2% 0;
+				padding: 8px 0;
 			}
 		}
 	}
 
 	footer {
 		h2 {
-			font-size: 1em;
+			font-size: .8em;
 			margin-bottom: 9%;
 		}
 	}
